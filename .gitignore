@@ -4,6 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+gradle/
 
 ### STS ###
 .apt_generated
@@ -42,8 +43,6 @@ out/
 *.pem
 *.key
 **/secrets.*
-*.properties
-*.yml
 
 # 빌드 산출물 / 의존성
 node_modules/
@@ -59,3 +58,5 @@ out/
 *.iml
 .DS_Store
 Thumbs.db
+
+compose.yaml
